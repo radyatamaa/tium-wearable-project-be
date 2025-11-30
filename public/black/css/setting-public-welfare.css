@@ -1,0 +1,600 @@
+.service-item {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.dashed-box {
+    border: 2px dashed #7f8c8d;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    color: #7f8c8d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    /* Adjust this as needed */
+    width: 100%;
+    /* Adjust this as needed */
+    box-sizing: border-box;
+    /* Ensures padding doesn't affect the width */
+    cursor: pointer;
+    /* Makes the box look clickable */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.setting-public-welfare-container {
+    display: flex;
+    flex-direction: column;
+    height: 86vh;
+    background-color: transparent;
+}
+
+.setting-public-welfare-navbar {
+    display: flex;
+    background-color: #192734;
+    /* padding: 10px; */
+}
+
+.setting-public-welfare-navbar-item {
+    color: #FFFFFF;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.setting-public-welfare-navbar-item:hover {
+    background-color: #34495e;
+}
+
+.setting-public-welfare-navbar-item-active {
+    background-color: #1E3142;
+    color: #3CBAFF;
+}
+
+.setting-public-welfare-content {
+    flex-grow: 1;
+    width: 65%;
+    height: 50vh;
+    background-color: #1E3142;
+    overflow-y: auto;
+    margin-bottom: 20px;
+}
+
+/*  */
+
+.setting-public-welfare-card {
+    background-color: #34495e;
+    border: 1px solid #2c3e50;
+    padding: 20px;
+    /* width: 180%; */
+    /* max-width: 885px; */
+    border-radius: 2px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 25px;
+    margin-top: 20px;
+}
+
+.setting-public-welfare-card-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.setting-public-welfare-card-title {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.setting-public-welfare-card-subtitle {
+    margin-left: 30px;
+    color: #3498db;
+    font-size: 0.8em;
+}
+
+.setting-public-welfare-card-actions {
+    display: flex;
+    align-items: center;
+}
+
+.setting-public-welfare-refresh-icon {
+    font-size: 1.5em;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: #fff;
+}
+
+.setting-public-welfare-refresh-icon:hover {
+    color: #3CBAFF;
+}
+
+/*  */
+
+
+.card-form-form-card {
+    background-color: #34495e;
+    border: 1px solid #2c3e50;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+
+}
+
+.card-form-table {
+    width: 96%;
+    border-collapse: collapse;
+    margin-left: 21px;
+    margin-top: 10px;
+}
+
+.card-form-table th,
+.card-form-table td {
+    border: 1px solid #4E6880;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.card-form-table th {
+    background-color: #324D65;
+}
+
+.card-form-table td {
+    background-color: #fff;
+    color: #34495e;
+}
+
+.card-form-table input {
+    border: none;
+    background: transparent;
+    width: 100%;
+    text-align: center;
+    color: inherit;
+}
+
+.card-form-table input:focus {
+    outline: none;
+}
+
+/*  */
+
+.custom-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.custom-card {
+    padding: 20px;
+    background-color: #1E3142;
+    overflow: auto;
+}
+
+.custom-left-card {
+    flex-grow: 1;
+    min-width: 300px;
+}
+
+.custom-right-card {
+    flex-grow: 1;
+    min-width: 300px;
+}
+
+.custom-resizer {
+    width: 5px;
+    cursor: ew-resize;
+    background-color: #3D5264;
+    height: 100%;
+    position: relative;
+}
+
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #ecf0f1;
+}
+
+.custom-table th,
+.custom-table td {
+    border: 1px solid #34495e;
+    padding: 8px;
+    text-align: center;
+}
+
+.custom-table th {
+    background-color: #3E6282;
+}
+
+.custom-table td {
+    background-color: #324D65;
+}
+
+.custom-form-group {
+    margin-bottom: 15px;
+}
+
+.custom-form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.custom-form-group input,
+.custom-form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #34495e;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+    color: #4E6880;
+}
+
+.custom-form-actions {
+    margin-top: 20px;
+}
+
+.custom-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-btn-primary {
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+.custom-btn-primary:hover {
+    background-color: #2980b9;
+}
+
+.custom-btn-secondary {
+    background-color: #95a5a6;
+    color: #ffffff;
+}
+
+.custom-btn-secondary:hover {
+    background-color: #7f8c8d;
+}
+
+
+/*  */
+.smartwatch-search-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #324D65;
+    border: 1px solid #34495E;
+    width: 100%;
+    position: relative;
+    justify-content: space-between;
+    padding: 10px;
+    /* Adjust padding as needed */
+}
+
+.smartwatch-search-top {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.smartwatch-search-bottom {
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+    justify-content: space-between;
+}
+
+.btn-group-left {
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+}
+
+.smartwatch-search-message {
+    color: #ecf0f1;
+    margin-right: auto;
+    padding-left: 10px;
+}
+
+.smartwatch-search-input-container {
+    display: flex;
+    align-items: center;
+    background-color: #111A23;
+    color: #ffffff;
+    padding: 5px;
+    border: 1px solid transparent;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.smartwatch-search-input::placeholder {
+    color: #3CBAFF;
+    opacity: 1;
+    text-align: left;
+}
+
+.smartwatch-search-input {
+    border: none;
+    background: none;
+    color: #ffffff;
+    padding: 5px;
+    outline: none;
+    width: 100%;
+    text-align: left;
+}
+
+.smartwatch-search-button {
+    background-color: #3E6282;
+    border: none;
+    padding: 10px 22px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: left;
+    justify-content: flex-end;
+}
+
+.smartwatch-search-button:hover {
+    background-color: #2980b9;
+}
+
+.smartwatch-search-button i {
+    margin-left: 10px;
+}
+
+.smartwatch-view-options {
+    background-color: #34495E;
+    padding: 5px 10px;
+    margin-right: 10px;
+    color: #ecf0f1;
+}
+
+.smartwatch-refresh-button {
+    background: none;
+    border: none;
+    color: #ecf0f1;
+    cursor: pointer;
+    font-size: 1.5em;
+    text-align: right;
+    /* margin-right: 10px; */
+    margin-left: auto;
+}
+
+.smartwatch-total-count {
+    background-color: #34495E;
+    padding: 5px 10px;
+    border-radius: 4px;
+    margin-right: 10px;
+    color: #ecf0f1;
+}
+
+.smartwatch-register-button {
+    background-color: #3498db;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.smartwatch-register-button:hover {
+    background-color: #2980b9;
+}
+
+/*  */
+
+.smartwatch-form-container {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.smartwatch-form-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    border: 1px solid #34495E;
+    border-radius: 4px;
+    background-color: #34495E;
+}
+
+.smartwatch-form-group label {
+    width: 30%;
+    padding: 10px;
+    background-color: #324D65;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.smartwatch-form-group input,
+.smartwatch-form-group select {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    background-color: #ecf0f1;
+    color: #2C3E50;
+    outline: none;
+    text-align: left;
+    /* Center the text */
+}
+
+.smartwatch-form-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.smartwatch-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 48%;
+}
+
+.smartwatch-btn-primary {
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+.smartwatch-btn-primary:hover {
+    background-color: #2980b9;
+}
+
+.smartwatch-btn-secondary {
+    background-color: #95a5a6;
+    color: #ffffff;
+}
+
+.smartwatch-btn-secondary:hover {
+    background-color: #7f8c8d;
+}
+
+/*  */
+
+/*  */
+.tab-container {
+    display: flex;
+    background-color: #1E3142;
+    border-bottom: 1px solid #34495E;
+}
+
+.tab {
+    flex-grow: 1;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.tab.active {
+    background-color: #34495E;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #2C3E50;
+    padding: 10px;
+}
+
+/* .chart-container {
+    height: 200px;
+    background-color: #1E3142;
+    border: 1px solid #34495E;
+    margin-bottom: 10px;
+} */
+
+.styled-table td.warning {
+    background-color: orange;
+    color: black;
+}
+
+.styled-table td.danger {
+    background-color: red;
+    color: black;
+}
+
+.styled-table td.normal {
+    background-color: green;
+    color: white;
+}
+
+
+/*  */
+.edit-button-box {
+    background-color: #324D65;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 2px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+}
+
+.edit-button-box img {
+    width: 20px;
+    height: 20px;
+}
+
+/*  */
+
+
+.modal-change-password {
+    display: none;
+    position: fixed;
+    z-index: 1050;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    outline: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.modal-change-password-modal-dialog {
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+.modal-change-password-modal-content {
+    background-color: #1E3142;
+    border: 1px solid #4E6880;
+    border-radius: 2px;
+    padding: 20px;
+    color: white;
+}
+
+.modal-change-password-modal-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid transparent;
+    text-align: center;
+}
+
+.modal-change-password-modal-title {
+    margin: 0;
+    font-size: 18px;
+    text-align: center;
+}
+
+.modal-change-password-close {
+    font-size: 24px;
+    background: none;
+    border: none;
+    color: white;
+}
+
+.modal-change-password-close:hover {
+    color: #ccc;
+}
+
+.modal-change-password-modal-body {
+    padding: 20px 0;
+}

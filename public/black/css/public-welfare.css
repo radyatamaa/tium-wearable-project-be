@@ -1,0 +1,1012 @@
+/* notification emergency */
+.notification-public-welfare {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-top: -25px;
+}
+
+.notification-public-welfare .bell-icon {
+    margin-right: 10px;
+}
+
+.notification-public-welfare .emergency-count {
+    color: #3CBAFF;
+    /* Adjust this color to match your design */
+}
+
+.notification-public-welfare .call-count {
+    color: #3CBAFF;
+    /* Adjust this color to match your design */
+}
+
+/*  */
+.home-public-welfare-container {
+    display: flex;
+    width: 100%;
+    height: 84vh;
+}
+
+.home-public-welfare-card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    /* padding: 10px; */
+    box-sizing: border-box;
+    /* overflow: auto; */
+    background-color: #192734;
+}
+
+.home-public-welfare-card-header {
+    font-size: 1.2em;
+    background-color: #1E3142;
+    width: 20%;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+.home-public-welfare-card-header .title-card {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Center the content horizontally */
+}
+
+.home-public-welfare-card-header-refresh-icon {
+    /* font-size: 1.5em; */
+    margin-left: 10px;
+    cursor: pointer;
+    transition: color 0.3s ease;
+    color: #FFFFFF;
+    /* Adjust the margin as needed */
+}
+
+.home-public-welfare-card-header-icon img {
+    display: block;
+    /* Ensures image is aligned properly */
+}
+
+.home-public-welfare-card-header-refresh-icon:hover {
+    color: #3CBAFF;
+}
+
+.home-public-welfare-card-content {
+    flex: 1;
+    background-color: #1E3142;
+    border-radius: 4px;
+    padding: 20px;
+    overflow: auto;
+}
+
+.home-public-welfare-resizer {
+    width: 5px;
+    cursor: ew-resize;
+    background-color: #3D5264;
+    height: 100%;
+    position: relative;
+}
+
+/* left card */
+.status-card {
+    background-color: #34495e;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.status-card-body {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.status-card-body.subscription {
+    background-color: #3CBAFF;
+}
+
+.status-card-body.withdrawal {
+    background-color: #EE8F3C;
+}
+
+.status-card-body.data {
+    background-color: #192734;
+    color: #FFFFFF;
+    border: 1px solid #4E6880;
+}
+
+
+.status-card-body .status-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    /* font-size: 1.2em; */
+    color: #fff;
+}
+
+.status-card-body .name {
+    /* font-size: 1.1em; */
+    color: #3CBAFF;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.status-card-body .details {
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 10px; */
+}
+
+.status-card-body .affiliations {
+    margin-top: 10px;
+}
+
+/*  */
+
+/* right card */
+.status-card-right {
+    background-color: #192734;
+    border-radius: 2px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 680px;
+    /* Set a specific width for the card */
+    border: 1px solid #4E6880;
+}
+
+.status-card-right-body {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status-card-right-body .left-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.status-card-right-body .right-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.status-card-right-body .name {
+    /* font-size: 1.1em; */
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #3CBAFF;
+}
+
+.status-card-right-body .details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.status-card-right-body .details div {
+    margin-right: 20px;
+}
+
+.status-card-right-body .affiliations {
+    margin-top: 10px;
+}
+
+.status-card-right-body .health-status {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.status-card-right-body .health-status span {
+    margin-right: 5px;
+}
+
+.status-card-right-body .health-status .status-dot {
+    width: 10px;
+    height: 10px;
+    background-color: orange;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.status-card-right-body .divider {
+    height: 40px;
+    border-left: 1px solid #ecf0f1;
+    margin: 0 20px;
+}
+
+/*  */
+
+
+
+
+.setting-navbar {
+    display: flex;
+    background-color: #192734;
+    padding: 10px;
+    justify-content: space-between;
+    justify-content: flex-start;
+    /* Aligns the items to the left */
+}
+
+.setting-navbar a {
+    color: #ecf0f1;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.setting-navbar a:hover {
+    background-color: #1E3142;
+    border-radius: 2px;
+    color: #3CBAFF;
+}
+
+
+
+
+/* setting */
+.setting-card {
+    background-color: #1E3142;
+    border-radius: 2px;
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.setting-card h2 {
+    margin-top: 0;
+    color: #1abc9c;
+}
+
+.setting-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.setting-table,
+.setting-table th,
+.setting-table td {
+    border: 1px solid #4E6880;
+}
+
+.setting-table th,
+.setting-table td {
+    padding: 10px;
+    text-align: center;
+    color: #4E6880;
+    background-color: #324D65;
+}
+
+.setting-table th {
+    background-color: #324D65;
+    color: #FFFFFF
+}
+
+.setting-table tr:nth-child(even) {
+    background-color: #2c3e50;
+}
+
+.setting-input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    background-color: #2c3e50;
+    border: 1px solid #7f8c8d;
+    color: #ecf0f1;
+    text-align: center;
+}
+
+.setting-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.setting-buttons button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    border: none;
+    border-radius: 4px;
+    color: #ecf0f1;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.setting-buttons button:hover {
+    background-color: #2980b9;
+}
+
+/*  */
+
+
+
+/*  */
+/* body.setting {
+    background-color: #1b2a38;
+    color: #ecf0f1;
+}
+
+.setting-nav-tabs {
+    border-bottom: 1px solid #2c3e50;
+}
+
+.setting-nav-tabs .setting-nav-link {
+    background-color: #2c3e50;
+    color: #FFFFFF;
+    border: none;
+    margin-right: 2px;
+}
+
+.setting-nav-tabs .setting-nav-link.active {
+    background-color: #1E3142;
+    color: #FFFFFF;
+    border: none;
+}
+
+.setting-nav-tabs .setting-nav-link:hover {
+    background-color: #1E3142;
+    color: #FFFFFF;
+}
+
+.setting-card {
+    background-color: #2c3e50;
+    color: #FFFFFF;
+    border: none;
+    margin-bottom: 15px;
+}
+
+.setting-card .setting-card-header {
+    background-color: #324D65;
+    color: #FFFFFF;
+    border: none;
+}
+
+.setting-card .setting-card-body {
+    background-color: #2c3e50;
+    color: #FFFFFF;
+}
+
+.setting-card .setting-card-title {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.setting-table {
+    color: #FFFFFF;
+    background-color: #324D65;
+    margin-bottom: 0;
+}
+
+.setting-table thead th {
+    border: none;
+    background-color: #324D65;
+    color: #FFFFFF;
+}
+
+.setting-table tbody tr td {
+    border: none;
+    background-color: #2c3e50;
+    color: #FFFFFF;
+}
+
+.setting-table-dark {
+    background-color: #2c3e50;
+    color: #FFFFFF;
+}
+
+.setting-btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+    color: #FFFFFF;
+}
+
+.setting-btn-secondary {
+    background-color: #95a5a6;
+    border-color: #95a5a6;
+    color: #FFFFFF;
+}
+
+.setting-btn {
+    color: #FFFFFF;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+.setting-input-group-text {
+    background-color: #324D65;
+    border: none;
+    color: #FFFFFF;
+}
+
+.setting-form-control {
+    background-color: #2c3e50;
+    border: none;
+    color: #FFFFFF;
+}
+
+.setting-input-group .setting-form-control {
+    border-left: 1px solid #2c3e50;
+}
+
+.setting-form-check-input {
+    background-color: #2c3e50;
+    border-color: #3498db;
+}
+
+.setting-form-check-label {
+    color: #FFFFFF;
+}
+
+.setting-modal-content {
+    background-color: #2c3e50;
+    color: #FFFFFF;
+}
+
+.setting-modal-header {
+    background-color: #1E3142;
+    color: #FFFFFF;
+    border-bottom: none;
+}
+
+.setting-modal-footer {
+    background-color: #1E3142;
+    border-top: none;
+}
+
+.setting-modal-header .close {
+    color: #FFFFFF;
+}
+
+.setting-nav-bar-custom {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1E3142;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.setting-nav-bar-custom .setting-nav-item {
+    cursor: pointer;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+.setting-nav-bar-custom .setting-nav-item.active,
+.setting-nav-bar-custom .setting-nav-item:hover {
+    background-color: #324D65;
+}
+
+.setting-profile-picture img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+.setting-profile-picture .setting-edit-icon img {
+    width: 20px;
+    cursor: pointer;
+}
+
+.setting-card-body-custom-1 {
+    background-color: #2c3e50;
+    border: 1px solid #324D65;
+    border-radius: 4px;
+}
+
+.setting-component {
+    display: flex;
+    align-items: center;
+}
+
+.setting-component .setting-label-input {
+    margin-right: 10px;
+    color: #FFFFFF;
+}
+
+.setting-switch {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 20px;
+}
+
+.setting-switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.setting-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    transition: .4s;
+    border-radius: 20px;
+}
+
+.setting-slider:before {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 12px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked+.setting-slider {
+    background-color: #3498db;
+}
+
+input:checked+.setting-slider:before {
+    transform: translateX(14px);
+} */
+
+/* */
+.setting-tabs .nav-link {
+    color: #ffffff;
+    background-color: #2c3e50;
+    border-color: #2c3e50;
+}
+
+.setting-tabs .nav-link.active {
+    background-color: #1e2f3d;
+    border-color: #1e2f3d;
+}
+
+.setting-card {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    margin-bottom: 20px;
+}
+
+.setting-card-header {
+    background-color: #1e3142;
+    color: #ecf0f1;
+}
+
+.setting-card-title {
+    margin-bottom: 0;
+}
+
+.setting-card-body {
+    padding: 20px;
+}
+
+.setting-table {
+    width: 100%;
+    color: #ecf0f1;
+}
+
+.setting-table th,
+.setting-table td {
+    border: 1px solid #34495e;
+    padding: 10px;
+    text-align: center;
+}
+
+.setting-table-dark {
+    background-color: #34495e;
+}
+
+.setting-btn {
+    margin: 5px;
+}
+
+.setting-btn-primary {
+    background-color: #2980b9;
+    border: none;
+}
+
+.setting-btn-secondary {
+    background-color: #95a5a6;
+    border: none;
+}
+
+.setting-form-control {
+    background-color: #34495e;
+    color: #ecf0f1;
+    border: 1px solid #1e3142;
+}
+
+/*  */
+
+/*  */
+
+
+/* Styling for the table */
+.styled-table-public-welfare-container {
+    max-height: 500px;
+    /* Tinggi maksimal untuk scroll */
+    overflow-y: auto;
+    /* Membuat scroll vertikal */
+}
+
+.styled-table-public-welfare {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: 1px solid #324D65;
+}
+
+.styled-table-public-welfare th {
+    background-color: #324D65;
+    /* Warna latar belakang header */
+    color: #ffffff;
+    /* Warna teks header */
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #324D65;
+    /* Warna garis untuk header */
+}
+
+.styled-table-public-welfare td {
+    background-color: #192734;
+    /* Warna latar belakang baris */
+    color: #ffffff;
+    /* Warna teks baris */
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #324D65;
+}
+
+.styled-table-public-welfare tbody tr:nth-child(even) {
+    background-color: #1E3142;
+    /* Warna latar belakang setiap baris ganjil */
+}
+
+
+/* Styling for the table */
+.styled-table-general-white-purpose-container {
+    max-height: 500px;
+    /* Tinggi maksimal untuk scroll */
+    overflow-y: auto;
+    /* Membuat scroll vertikal */
+}
+
+.styled-table-general-white-purpose {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    border: 1px solid #324D65;
+}
+
+.styled-table-general-white-purpose th {
+    background-color: #4E6880;
+    /* Warna latar belakang header */
+    color: #ffffff;
+    /* Warna teks header */
+    padding: 10px;
+    text-align: left;
+    /* border: 1px solid #324D65; */
+    /* Warna garis untuk header */
+}
+
+.styled-table-general-white-purpose td {
+    background-color: #FFFFFF;
+    /* Warna latar belakang baris */
+    color: #192734;
+    /* Warna teks baris */
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #324D65;
+}
+
+.styled-table-general-white-purpose tbody tr:nth-child(even) {
+    background-color: #1E3142;
+    /* Warna latar belakang setiap baris ganjil */
+}
+
+/*  */
+/* Adjust these styles as needed */
+#user-management-dropdown {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#user-management-dropdown .dropdown-menu {
+    display: none;
+}
+
+#user-management-dropdown.show .dropdown-menu {
+    display: block;
+}
+
+/*  */
+.status-button {
+    border-radius: 25px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.status-button.danger {
+    background-color: #FF6C36;
+}
+
+.status-button.normal {
+    background-color: #3CBAFF;
+}
+
+.status-button.caution {
+    background-color: #EEAD3C;
+}
+
+.status-button.warning {
+    background-color: #EEAD3C;
+}
+
+/*  */
+.patient-management-container {
+    width: 100%;
+    background-color: #1E3142;
+    color: white;
+    padding: 10px;
+    /* border: 1px solid #34495E; */
+}
+
+.patient-management-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #1E3142;
+}
+
+.patient-management-title {
+    color: white;
+    font-size: 1.2em;
+}
+
+.patient-management-actions button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+.patient-management-body {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: -15px;
+}
+
+.patient-info-column {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.patient-info-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.patient-info-table td {
+    background-color: #ffffff;
+    color: #4E6880;
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #4E6880;
+}
+
+.patient-info-table tr td:first-child {
+    background-color: #324D65;
+    color: #FFFFFF;
+    width: 150px;
+}
+
+
+/* Measurement Info Styles */
+.measurement-info {
+    background-color: #1E3142;
+    padding: 20px;
+    margin-top: -15px;
+    border-radius: 10px;
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+.measurement-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #456078;
+    padding: inherit;
+}
+
+.measurement-title {
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    background-color: #192734;
+    color: #FFFFFF;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-button .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #2980b9;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #192734;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+}
+
+.dropdown-content a {
+    color: #FFFFFF;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #2980b9;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.chart-container {
+    margin-top: 20px;
+}
+
+
+.social-worker-container {
+    background-color: #1E3142;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 1000px;
+}
+
+.social-worker-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.social-worker-header h2 {
+    margin: 0;
+}
+
+.social-worker-content {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.social-worker-left-section {
+    flex: 1;
+    text-align: center;
+}
+
+.social-worker-right-section {
+    flex: 2;
+    padding-left: 20px;
+}
+
+.social-worker-profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.social-worker-info-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 10px;
+}
+
+.social-worker-info-table th,
+.social-worker-info-table td {
+    padding: 0.5px;
+    border-bottom: 1px solid #4E6880;
+    color: #FFFFFF;
+}
+
+.social-worker-info-table th {
+    background-color: #324D65;
+    text-align: center;
+}
+
+.social-worker-info-table td input {
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #4E6880;
+    border: none;
+    padding: 5px;
+    /* box-sizing: border-box; */
+}
+
+.social-worker-info-table td select {
+    width: 100%;
+    background-color: #FFFFFF;
+    color: #4E6880;
+    border: none;
+    padding: 5px;
+    /* box-sizing: border-box; */
+}
+
+.social-worker-additional-info {
+    margin-bottom: 20px;
+}
+
+.social-worker-beneficiary-section {
+    background-color: #2A4055;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.social-worker-beneficiary-section h3 {
+    margin-top: 0;
+}
+
+.social-worker-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.btn-group .dropdown-menu {
+    background-color: #1E3142;
+    border: 1px solid #324D65;
+}
+
+.social-worker-participant-list {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #324D65;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.social-worker-participant-list p {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}

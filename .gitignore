@@ -1,0 +1,60 @@
+/.phpunit.cache
+/node_modules
+/public/build
+/public/hot
+/public/storage
+/storage/*.key
+/vendor
+.env
+.env.backup
+.env.server
+.env.web.prod
+.env.api.prod
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+auth.json
+npm-debug.log
+yarn-error.log
+/.fleet
+/.idea
+/.vscode
+
+
+
+# Ignore Python cache files
+ai/__pycache__/
+ai/*.pyc
+ai/*.pyo
+ai/*$py.class
+
+# Ignore virtual environment
+ai/venv/
+ai/.venv/
+
+# Ignore logs and debug files
+ai/logs/
+ai/*.log
+ai/debug.log
+
+# Ignore Jupyter Notebook checkpoints (if used)
+ai/.ipynb_checkpoints/
+
+# Ignore system files
+ai/.DS_Store
+ai/Thumbs.db
+
+# Ignore environment variables & secrets
+ai/.env
+ai/*.sqlite3
+ai/*.db
+
+# Ignore machine learning models and large files
+ai/*.h5
+ai/*.hdf5
+ai/*.tflite
+ai/*.pkl
+
+# Ignore test results
+ai/test-results/
+ai/coverage/

@@ -1,0 +1,37 @@
+.summary-row {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #4E6880;
+    border-right: 1px solid #4E6880;
+    border-left: 1px solid #4E6880;
+    /* Mengubah warna garis menjadi putih */
+}
+
+.summary-row div {
+    padding: 12px 10px;
+    /* border-right: 1px solid #ffffff; */
+    /* border-left: 1px solid #4E6880; */
+    border-top: 1px solid #4E6880;
+    /* Mengubah warna garis menjadi putih */
+    color: #ffffff;
+    /* Mengubah warna font menjadi putih */
+}
+
+.summary-row div:last-child {
+    border-right: none;
+}
+
+.summary-row div:nth-child(1) {
+    flex: 1;
+    background-color: #324D65;
+}
+
+.summary-row div:nth-child(2) {
+    flex: 2;
+    background-color: #1E3142;
+}
+
+.summary-row div:nth-child(3) {
+    flex: 3;
+    background-color: #1E3142;
+}
